@@ -1,6 +1,6 @@
 import disnake
 from disnake.ext import commands
-from bot import bot
+from main import bot
 # Наследуем модальное окно
 class Menu(disnake.ui.View):
     def __init__(self):

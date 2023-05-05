@@ -1,6 +1,6 @@
 import disnake
 from disnake.ext import commands
-
+import os
 intents = disnake.Intents().all()
 
 bot = commands.InteractionBot(intents=intents)
